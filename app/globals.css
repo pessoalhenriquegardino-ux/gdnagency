@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Tema dark por padrão (Vértice Create é uso 100% interno) */
+    --background: 240 10% 6%;
+    --foreground: 210 20% 96%;
+
+    --card: 240 8% 10%;
+    --card-foreground: 210 20% 96%;
+
+    --popover: 240 8% 10%;
+    --popover-foreground: 210 20% 96%;
+
+    --primary: 250 84% 64%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 240 6% 16%;
+    --secondary-foreground: 210 20% 90%;
+
+    --muted: 240 6% 15%;
+    --muted-foreground: 217 10% 64%;
+
+    --accent: 240 6% 18%;
+    --accent-foreground: 210 20% 96%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 250 84% 64%;
+
+    --radius: 0.6rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
