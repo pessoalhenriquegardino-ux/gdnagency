@@ -34,10 +34,10 @@ export function Sidebar({ userName, userRole, onSignOut }: SidebarProps) {
     <aside className="flex h-screen w-64 shrink-0 flex-col border-r bg-card">
       <div className="flex items-center gap-2 border-b px-6 py-5">
         <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-          V
+          G
         </div>
         <div>
-          <p className="text-sm font-semibold leading-tight">Vértice Create</p>
+          <p className="text-sm font-semibold leading-tight">GDN Agency</p>
           <p className="text-xs text-muted-foreground">Gestão interna</p>
         </div>
       </div>

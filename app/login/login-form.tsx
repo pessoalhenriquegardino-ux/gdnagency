@@ -27,7 +27,7 @@ export function LoginForm() {
           id="email"
           name="email"
           type="email"
-          placeholder="voce@verticecreate.com"
+          placeholder="voce@gdnagency.com"
           required
           autoComplete="email"
         />

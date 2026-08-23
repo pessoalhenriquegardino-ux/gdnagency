@@ -7,9 +7,9 @@ export default function LoginPage() {
       <Card className="w-full max-w-sm">
         <CardHeader className="items-center text-center">
           <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-lg font-bold text-primary-foreground">
-            V
+            G
           </div>
-          <CardTitle className="text-xl text-foreground">Vértice Create</CardTitle>
+          <CardTitle className="text-xl text-foreground">GDN Agency</CardTitle>
           <p className="text-sm text-muted-foreground">Sistema interno de gestão</p>
         </CardHeader>
         <CardContent>

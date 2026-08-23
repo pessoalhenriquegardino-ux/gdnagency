@@ -1,4 +1,4 @@
-// Schema Prisma — Vértice Create (sistema interno de gestão da agência)
+// Schema Prisma — GDN Agency (sistema interno de gestão da agência)
 // Banco: PostgreSQL (Neon). Configure DATABASE_URL no .env
 
 generator client {

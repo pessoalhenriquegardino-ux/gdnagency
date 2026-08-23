@@ -1,7 +1,7 @@
-# Vértice Create — Sistema Interno de Gestão
+# GDN Agency — Sistema Interno de Gestão
 
 Sistema interno (100% uso da equipe) para organizar projetos, tarefas, prazos e
-carga de trabalho da Vértice Create. Separado do CRM de clientes e do SaaS
+carga de trabalho da GDN Agency. Separado do CRM de clientes e do SaaS
 Trelvo.
 
 ## Stack
