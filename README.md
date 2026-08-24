@@ -40,11 +40,15 @@ npm run dev
 
 5. Acesse `http://localhost:3000` — você será redirecionado para `/login`.
 
-### Credenciais de teste (via seed)
+### Login
+
+O admin real (Henrique Gardino) é uma conta própria, criada direto no banco —
+não faz parte do seed nem está no código (senha nunca fica em texto no repo).
+
+Para testar a visão de **MEMBER**, o seed cria uma conta de exemplo:
 
 | Papel  | E-mail                       | Senha    |
 | ------ | ----------------------------- | -------- |
-| ADMIN  | admin@verticecreate.com       | senha123 |
 | MEMBER | camila@verticecreate.com      | senha123 |
 
 ## Estrutura de pastas (App Router)

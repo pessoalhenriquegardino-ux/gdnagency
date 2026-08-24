@@ -3,19 +3,12 @@ import bcrypt from "bcryptjs";
 
 const prisma = new PrismaClient();
 
+// Este seed NÃO cria mais uma conta ADMIN de demonstração — o admin real da
+// agência (Henrique Gardino) já foi criado diretamente no banco, com senha
+// própria, fora deste script (que é versionado no git). Só a conta MEMBER de
+// exemplo abaixo segue existindo, para você testar a visão de "membro".
 async function main() {
   const passwordHash = await bcrypt.hash("senha123", 10);
-
-  const admin = await prisma.user.upsert({
-    where: { email: "admin@verticecreate.com" },
-    update: {},
-    create: {
-      name: "Henrique (Admin)",
-      email: "admin@verticecreate.com",
-      passwordHash,
-      role: Role.ADMIN,
-    },
-  });
 
   const membro = await prisma.user.upsert({
     where: { email: "camila@verticecreate.com" },
@@ -76,7 +69,7 @@ async function main() {
     skipDuplicates: true,
   });
 
-  console.log("Seed concluído:", { admin: admin.email, membro: membro.email });
+  console.log("Seed concluído:", { membro: membro.email });
 }
 
 main()
